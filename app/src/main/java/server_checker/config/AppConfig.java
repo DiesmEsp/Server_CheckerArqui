@@ -14,9 +14,9 @@ public final class AppConfig {
     public static final String NOMBRE_IDX   = "turno_caja.idx";
 
     // ── Base de datos ─────────────────────────────────────────────────────────
-    public static final String DB_URL     = "jdbc:mysql://localhost:3306/arquiproy";
+    public static final String DB_URL     = "jdbc:mysql://localhost:3306/db";
     public static final String DB_USUARIO = "root";
-    public static final String DB_CLAVE   = "Rabito2014";
+    public static final String DB_CLAVE   = "tucontraseña";
 
     // Incluye el ID explícitamente para respetar la identidad del archivo
     public static final String SQL_INSERT =
