@@ -30,7 +30,7 @@ public class Main {
         // Construcción del grafo de dependencias
         ArchivoRepository   archivoRepo = new ArchivoRepository();
         TurnoCajaRepository bdRepo      = new TurnoCajaRepository();
-        SincronizacionService servicio  = new SincronizacionService(archivoRepo, bdRepo);
+            SincronizacionService servicio  = new SincronizacionService(archivoRepo, bdRepo);
         SincronizacionScheduler scheduler = new SincronizacionScheduler(servicio);
 
         // Arranque
